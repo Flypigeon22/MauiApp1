@@ -7,7 +7,7 @@ namespace MauiApp1 {
     public NewPage1(String Name, Image Image , String Description)
     {
         InitializeComponent();
-           showImage.=Image;
+           showImage.Source=Image;
            showName.Text = Name;
            showDescription.Text = Description;
 
