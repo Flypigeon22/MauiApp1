@@ -4,7 +4,7 @@ namespace MauiApp1 {
 
    public partial class NewPage1 : ContentPage
    {
-    public NewPage1(String Name, Image Image , String Description)
+    public NewPage1(String Name, String Image , String Description)
     {
         InitializeComponent();
            showImage.Source=Image;
